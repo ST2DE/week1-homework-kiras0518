@@ -84,21 +84,6 @@ git config --list
 ```
 可查看設定的參數
 
-## Git問題
-1. Updates were rejected because a pushed branch tip is behind its remote
-github上的版本跟自己本機的版本不同時
 
-```
-git push -u origin master -f 
-```
-強制更新成你電腦上的分支
-
-2. rebase in progress;onto 
-代碼發生衝突時
-```
-git status
-git add
-git rebase --continue
-```
 
 
