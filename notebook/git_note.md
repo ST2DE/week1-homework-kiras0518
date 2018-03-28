@@ -53,18 +53,8 @@ git push
 
 ```
 git log//按q可跳出瀏覽
-git diff
 
 ```
-git diff是比對檔案與版本差異
-先從git log中得到id資訊(一長串數字的前五碼如e17f3)
-例如下圖
-![](https://github.com/ST2DE/wee1-homework-yf-ashu/blob/master/notebook/img/git%20diff1.png?raw=true)
-再將id資訊填入作比對
-如git diff 5293b 91d30 會呈現下圖資訊
-紅色為刪除，綠色為增加
-![](https://github.com/ST2DE/wee1-homework-yf-ashu/blob/master/notebook/img/git%20diff2.png?raw=true)
-
 ## git rm
 ```
 git rm
@@ -87,20 +77,12 @@ git rebase
 ## git config
 ```
 git config --global
-git config --global  user.name "zlargon"
-git config --global  user.email "zlargon@icloud.com"
 ```
 設定初始參數
 ``` 
 git config --list
 ```
 可查看設定的參數
-
-參考資料：
-1. https://zlargon.gitbooks.io/git-tutorial/content/
-2. https://gitbook.tw/
-3. https://git-scm.com/book/en/v2
-4. https://ithelp.ithome.com.tw/users/20004901/ironman/525
 
 ## Git問題
 1. Updates were rejected because a pushed branch tip is behind its remote
