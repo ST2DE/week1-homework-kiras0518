@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>方廷宇 - Ray Team Homework</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../public/css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="../public/js/public.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <a class="navbar-brand" href="../index.html">Ray Team Homework</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a> </li>
+                    <li class="nav-item"> <a class="nav-link"  href="./yuweiwei.html">陳昱偉</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="./caroline.html">李若彤</a> </li>
+                    <li class="nav-item"> <a class="nav-link active" href="#">方廷宇</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+ 
+
+    <section>
+        <div class="container">
+            <h2>Note</h2>
+            <h1>努力編寫</h1>
+            <h3>建置中</h3>
+
+            <h1>Git 教學</h1>
+            <p>Git是什麼？ git是一種版本控制系統，同樣為版本控制的還有SVN 透過這樣的版本控制系統，可以清楚的記錄每個檔案是誰在什麼時候加進來、什麼時候被修改或刪除。</p>
+        <ol>
+            <li>建立新的目錄，並且Git初始化</li>           
+            <li>mkdir 資料夾名稱</li>
+            <li>cd 資料夾名稱</li>
+            <li><code>git init</code></li>
+            <li><code>git clone </code>你的專案網址</li>
+        </ol>
+        <p>好了之後輸入</p>
+        
+        <li>查看目前檔案的狀態</li>
+        <code>git status</code>
+        <li>將檔案提交入Repository</li>
+        <code>git commit -m "解說文字" </code>
+        <li>把所有更改過的東西都 add </li>
+        <code>git add .</code>
+        <p>提交完之後再用git status看一次，你的狀態會變成Changes to be committed</p>
+        <li>推送到Github上面</li>
+        <code>git push</code>
+        <li>同步遠端檔案</li>
+        <code>git pull master origin</code>
+        <li>比較文件或commit間修改的差異</li>
+		<code>git log </code>
+		<li>列出該次commit的修改內容</li>
+		<code>git show </code>
+        <li>刪除檔案</li>
+        <code>git rm </code>
+        <li>搬移檔案，這樣就不用add或rm檔案了</li>
+		<code>git mv 檔案名 資料夾</code>
+        <li>git rebase</li>
+		<code>將不同分支上的差異點合併成一個新的commit</code>
+        <p></p>
+
+        <h3>git rebase與git merge差異</h3> 
+        <p>他們作的事情一樣，都是合併，只是合併的過程不一樣</p>
+        <code>git rebase</code>
+        <code>git merge</code>
+        <p></p>
+        <h4>merge: 兩分支會在master中有一個新的節點，現有的分支不會作改變</h4>
+        <h4>rebase: 直接在master上接上你的分支</h4>
+        <p></p>
+        <h3>終端機文件修改常用指令</h3>
+        <ol>
+            <li> :i 編輯文件 </li>
+            <li> :w 存擋 </li>
+            <li>:q 離開 </li>
+            <li> :wq 存檔離開</li>
+        </ol>
+            
+        </div>
+            </section>
+        
+           
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copy right © 2018 Developer by ST2DE Ray Team.</p>
+                </div>
+            </div>
+            <!-- end .row -->
+        </div>
+    </footer>
+</body>
+
+</html>
